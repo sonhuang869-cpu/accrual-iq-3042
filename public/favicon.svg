@@ -1,0 +1,16 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 32 32">
+  <!-- Dark background -->
+  <rect width="32" height="32" rx="6" fill="#0A0F1E"/>
+  <!-- Revenue recognition curve (upward trend) -->
+  <path d="M5 24 L10 18 L16 13 L22 9 L27 5" stroke="#4F8EF7" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round" fill="none"/>
+  <!-- Deferred to recognized fill area -->
+  <path d="M5 24 L10 18 L16 13 L22 9 L27 5 L27 27 L5 27 Z" fill="#4F8EF7" opacity="0.15"/>
+  <!-- Baseline -->
+  <line x1="4" y1="27" x2="28" y2="27" stroke="#1E3A5F" stroke-width="1.5" stroke-linecap="round"/>
+  <!-- Accent dot at peak -->
+  <circle cx="27" cy="5" r="2.5" fill="#34D399"/>
+  <!-- Small vertical tick marks (schedule lines) -->
+  <line x1="10" y1="25" x2="10" y2="27" stroke="#4F8EF7" stroke-width="1.5" opacity="0.6"/>
+  <line x1="16" y1="25" x2="16" y2="27" stroke="#4F8EF7" stroke-width="1.5" opacity="0.6"/>
+  <line x1="22" y1="25" x2="22" y2="27" stroke="#4F8EF7" stroke-width="1.5" opacity="0.6"/>
+</svg>
